@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Untitled</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CASHBET - Online Betting Platform</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Login Section -->
+  <div id="loginSection">
+    <header>
+      <h1>CASHBET</h1>
+      <nav>
+        <button id="homeBtn" style="display: none;">Home</button>
+        <button id="loginBtn">Login</button>
+        <button id="registerBtn">Register</button>
+      </nav>
+    </header>
+
+    <!-- Login Modal -->
+    <div id="loginModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Login</h2>
+        <form id="loginForm">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+          
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required>
+          
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+
+    <main>
+      <section class="game-buttons">
+        <button id="liveGamesBtn">Live Games</button>
+        <button id="jackpotsBtn">Jackpots</button>
+        <button id="crashGamesBtn">Crash Games</button>
+        <button id="casinoBtn">Casino</button>
+        <button id="aviatorBtn">Aviator</button>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2023 CASHBET. All rights reserved.</p>
+    </footer>
+  </div>
+
+  <!-- Dashboard Section -->
+  <div id="dashboardSection" style="display: none;">
+    <header class="dashboard-header">
+      <h1>CASHBET</h1>
+      <div class="actions">
+        <button id="homeBtnDashboard">Home</button>
+        <button id="depositBtn">Deposit</button>
+        <button id="withdrawBtn">Withdraw</button>
+      </div>
+    </header>
+
+    <main>
+      <h2>Welcome to Your Dashboard</h2>
+      <p>Here you can manage your account and transactions.</p>
+    </main>
+
+    <footer>
+      <p>&copy; 2023 CASHBET. All rights reserved.</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
